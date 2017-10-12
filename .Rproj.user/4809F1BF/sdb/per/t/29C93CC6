@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1507805324342.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "29C93CC6",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1507805324342,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5A376527",
+        "caption" : "futuredf",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=futuredf&cache_key=5A376527",
+        "displayedObservations" : 1,
+        "environment" : "",
+        "object" : "futuredf",
+        "preview" : 0,
+        "totalObservations" : 1,
+        "variables" : 1
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

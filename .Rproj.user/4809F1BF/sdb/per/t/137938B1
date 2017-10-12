@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "args <- commandArgs(TRUE)\ny <- c(as.numeric(args[1]), as.numeric(args[2]), as.numeric(args[3]), as.numeric(args[4]), as.numeric(args[5]), as.numeric(args[6]), as.numeric(args[7]), as.numeric(args[8]), as.numeric(args[9]), as.numeric(args[10]), as.numeric(args[11]), as.numeric(args[12]), as.numeric(args[13]), as.numeric(args[14]), as.numeric(args[15]), as.numeric(args[16]), as.numeric(args[17]), as.numeric(args[18]), as.numeric(args[19]), as.numeric(args[20]))\n# <- as.numeric(c(args[1], args[2], args[3],args[4],args[5],args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13], args[14], args[15], args[16], args[17], args[18], args[19], args[20])\nx = 1:20\n#y = 1:20\ndf = data.frame(x, y)\nlinearMod <- lm(y ~ x, df)\nfutureDf = data.frame(x = 33)\n\noutput = predict(lm(y ~ x), futureDf)\nwrite(output, file=\"fromR\", ncolumns = 1, append = FALSE)\n\n",
+    "created" : 1507836087868.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3269071160",
+    "id" : "137938B1",
+    "lastKnownWriteTime" : 1507836274,
+    "last_content_update" : 1507836274668,
+    "path" : "D:/Dropbox/NJIT/cs673_project/R/RScript/src/myRscript.R",
+    "project_path" : "src/myRscript.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
